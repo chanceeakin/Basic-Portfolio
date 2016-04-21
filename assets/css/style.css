@@ -1,0 +1,77 @@
+body {
+    background-image: "assets/images/diamond_upholstery.png";
+    background-repeat: repeat;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+header {
+    background-color: #ffffff;
+    border-color: #cccccc;
+}
+
+header ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+li {
+	display: inline;
+}
+
+h1 {
+    font-size: 28px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+}
+
+h2 {
+    font-size: 24px;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+}
+
+a {}
+
+p {
+    color: #777777;
+}
+
+.container {
+    border-color: #dddddd;
+    width: 960px;
+}
+
+#about-me {
+    background-color: #ffffff;
+    width: 650px;
+    float: left;
+}
+
+#sidebar {
+    background-color: #ffffff;
+    width: 270px;
+    float: left;
+}
+
+#sidebar
+img {
+    width: 64px;
+    height: auto;
+}
+
+#sidebar ul li {
+	display: inline-block;
+}
+
+#headshot-image {
+    width: auto;
+    height: auto;
+    max-width: 300px;
+    float: left;
+}
+
+footer {
+    background-color: #666666;
+    text-align: center;
+}
