@@ -11,7 +11,10 @@ how to make a form and have said form successfully work!
 Things to do:
 
 html
-complete for in contact
+I think my HTML is  finished.
 
 css
-actually write the css
+Problems.
+fonts
+background colors for containers and sections
+the arrangement of the nav bars so that it doesn't look like a 5 year old did it.
