@@ -16,7 +16,10 @@ header ul {
 }
 
 li {
-	display: inline;
+    display: inline-block;
+    background-color: #ffffff;
+    text-align: center;
+    padding: 10px;
 }
 
 h1 {
@@ -24,6 +27,8 @@ h1 {
     background-color: #4aaaa5;
     color: #ffffff;
     font-family: 'Georgia', Times, 'Times New Roman', serif;
+    padding: 10px;
+    float: left;
 }
 
 h2 {
@@ -31,7 +36,9 @@ h2 {
     font-family: 'Georgia', Times, 'Times New Roman', serif;
 }
 
-a {}
+a {
+
+}
 
 p {
     color: #777777;
@@ -45,23 +52,26 @@ p {
 #about-me {
     background-color: #ffffff;
     width: 650px;
-    float: left;
+    margin: 0px;
+    padding: 0px;
 }
 
 #sidebar {
     background-color: #ffffff;
     width: 270px;
-    float: left;
+    margin: 0px;
+    padding: 0px;
 }
 
-#sidebar
-img {
-    width: 64px;
+#sidebar img {
+    width: auto;
     height: auto;
+    max-width: 64px;
 }
 
 #sidebar ul li {
-	display: inline-block;
+    display: inline-block;
+    padding: 0px;
 }
 
 #headshot-image {
