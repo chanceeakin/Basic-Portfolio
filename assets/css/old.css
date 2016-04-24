@@ -1,58 +1,120 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+}
+
 body {
     background-image: url(../images/diamond_upholstery.png);
     background-repeat: repeat-x repeat-y;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     width: 960px;
+    height: 100%;
+}
+
+a {
+    color: #777777;
+    text-decoration: none;
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
 }
 
 header {
     background-color: #ffffff;
-    border-color: #cccccc;
     margin: 0px;
     padding: 0px;
+    border-width: 0px;
+    border-style: solid;
+    border-bottom: 3px;
+    border-color: #777777;
 }
 
-.navbar {
-    list-style-type: none;
-    display: inline;
-    background-color: #ffffff;
-    text-align: center;
-    margin: 10px;
-    padding: 15px;
+hr {
+    height: 2px;
+    color: #eee;
+    background: #eee;
+    font-size: 0;
+    border: 0;
 }
 
-li {
-   
-}
-
-h1 {
+.jumbotron {
     font-size: 28px;
     background-color: #4aaaa5;
     color: #ffffff;
     font-family: 'Georgia', Times, 'Times New Roman', serif;
-    padding: 10px;
+    font-style: bold;
+    padding: 15px;
     float: left;
+    margin-left: 50px;
+}
+
+.navbar {
+    background-color: #ffffff;
+    text-align: center;
+    align: right;
+}
+
+.navbar ul {
+    list-style-type: none;
+    padding: 21px;
+}
+
+.navbar < li {
+    margin-left: 50px;
+}
+
+.navbar li {
+    display: inline;
+    margin: 0px;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 h2 {
     font-size: 24px;
     font-family: 'Georgia', Times, 'Times New Roman', serif;
+    color: #4aaaa5;
+    text-align: center;
 }
 
-.container {
-    border-color: #dddddd;
-    width: 960px;
+h3 {
+    font-size: 22px;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    color: #4aaaa5;
+    text-align: center;
 }
 
-#about-me {
+.about-me {
     width: 650px;
     margin: 0px;
     padding: 0px;
     color: #777777;
     float: left;
+    background-color: #ffffff;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #777777;
 }
 
-#about-me p {
+#about-me hr 
+
+.about-me-title {
+    text-align: center;
+    padding: 5px;
+}
+
+#headshot-image {
+    width: auto;
+    height: auto;
+    max-width: 200px;
+    margin: 5px;
+    float: left;
+}
+
+.about-me-content {
+    width: 50%;
     float: left;
 }
 
@@ -60,7 +122,12 @@ h2 {
     width: 270px;
     margin: 0px;
     padding: 0px;
-    float: left;
+    float: right;
+    text-align: center;
+    background-color: #ffffff;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #777777;
 }
 
 #sidebar img {
@@ -74,16 +141,19 @@ h2 {
     padding: 0px;
 }
 
-#headshot-image {
-    width: auto;
-    height: auto;
-    max-width: 200px;
+.page-wrap {
+    min-height: 100%;
+    margin-bottom: -25px;
 }
 
-
-footer {
+.site-footer {
     background-color: #666666;
     color: white;
     text-align: center;
-    padding: 25px;
+    margin: 0px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: auto;
+    padding-right: auto;
+    clear: both;
 }
