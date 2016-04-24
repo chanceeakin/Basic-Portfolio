@@ -65,9 +65,7 @@ hr {
     padding: 21px;
 }
 
-.navbar < li {
-    margin-left: 50px;
-}
+
 
 .navbar li {
     display: inline;
@@ -150,11 +148,12 @@ h3 {
     margin: 10px 0px 10px 0px;
 }
 
-.sidebar img {
-    width: auto;
-    height: auto;
-    max-width: 64px;
+.sidebar-img {
+    width: 64px;
+    height: 64px;
 }
+
+
 
 .sidebar ul li {
     display: inline;
