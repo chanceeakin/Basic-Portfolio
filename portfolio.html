@@ -9,18 +9,22 @@
 </head>
 
 <body>
-    <!-- Header!  Oh...unordered lists...-->
-    <header>
-        <h1>Chance Eakin</h1>
-        <ul>
-            <li><a href="index.html">About</a></li>
-            <li><a href="#">Portfolio</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
-    </header>
-    <!-- The Portfolio Section -->
     <div class="container">
-        <section id="portfolio">
+        <!-- Header. Title and Nav Bar -->
+        <header>
+            <div class="jumbotron">
+                <h1>Chance Eakin</h1>
+            </div>
+            <div class="navbar">
+                <ul>
+                    <li><a href="#">About</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </header>
+        <!-- Main Content Section -->
+         <section id="portfolio">
             <h2>Portfolio</h2>
             <hr>
             <div class="image">
@@ -44,27 +48,41 @@
                 <h3>Rock Paper Scissors</h3>
             </div>
         </section>
-        <!-- Connect Buttons-->
-        <section id="sidebar">
-            <h3>Connect with Me</h3>
+        <!-- Sidebar Section-->
+        <section class="sidebar">
+            <div class="sidebar-title">
+                <h3>Connect with Me</h3></div>
             <hr>
-            <ul>
-                <li>
-                    <a href="https://www.github.com/chanceeakin"><img src="assets/images/1461265176_github.png" alt="Github"></a>
-                </li>
-                <li>
-                    <a href="http://www.linkedin.com/chanceeakin"><img src="assets/images/1461265195_linkedin_circle_color.png" alt="LinkedIn"></a>
-                </li>
-                <li>
-                    <a href="http://stackoverflow.com/users/6016389/chance-eakin"><img src="assets/images/1461265210_stackoverflow_rounded.png" alt="Stack Overflow"></a>
-                </li>
-            </ul>
+            <div class="sidebar-links">
+                <ul>
+                    <li>
+                        <a href="https://www.github.com/chanceeakin">
+                        <img class="sidebar-img" alt="GitHub" src="assets/images/1461489373_github_square.png">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://www.linkedin.com/chanceeakin">
+                        <img class="sidebar-img" alt="Linked In" src="assets/images/1461491719_linkedin_square_color%20%281%29.png">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://stackoverflow.com/users/6016389/chance-eakin">
+                        <img class="sidebar-img" alt="Stack Overflow" src="assets/images/1461489447_stackoverflow.png">
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </section>
+        <!-- Footer -->
+        <div class="page-wrap">
+            <footer class="site-footer">
+                <p>© Copyright 2016 Chance Eakin</p>
+            </footer>
+        </div>
     </div>
-    <!-- Footer.-->
-    <footer>
-        <p>© Copyright 2016 Chance Eakin</p>
-    </footer>
+       
+       
+    
 </body>
 
 </html>
