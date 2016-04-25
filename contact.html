@@ -5,57 +5,78 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Chance Eakin</title>
+    <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
-    <!-- Header!  Oh...unordered lists...-->
-    <header>
-        <h1>Chance Eakin</h1>
-        <ul>
-            <li><a href="index.html">About</a></li>
-            <li><a href="portfolio.html">Portfolio</a></li>
-            <li><a href="#">Contact</a></li>
-        </ul>
-    </header>
-    <!-- The Contact me Section -->
     <div class="container">
-        <section id="contact-me">
-            <form>
-                Name
-                <br>
-                <input type="text" name="name">
-                <br> Email
-                <br>
-                <input type="text" name="email">
-                <br> Message
-                <input type="text" name="message">
-                <br> Submit
-                <br>
-                <input type="submit" value="Submit">
-            </form>
-        </section>
-        <!-- Connect Buttons-->
-        <section id="sidebar">
-            <h3>Connect with Me</h3>
-            <hr>
-            <ul>
-                <li>
-                    <a href="https://www.github.com/chanceeakin"><img src="assets/images/1461265176_github.png" alt="Github"></a>
-                </li>
-                <li>
-                    <a href="http://www.linkedin.com/chanceeakin"><img src="assets/images/1461265195_linkedin_circle_color.png" alt="LinkedIn"></a>
-                </li>
-                <li>
-                    <a href="http://stackoverflow.com/users/6016389/chance-eakin"><img src="assets/images/1461265210_stackoverflow_rounded.png" alt="Stack Overflow"></a>
-                </li>
-            </ul>
-        </section>
+        <!-- Header. Title and Nav Bar -->
+        <header>
+            <div class="header-container">
+                <div class="jumbotron">
+                    <h1>Chance Eakin</h1>
+                </div>
+                <div class="navbar">
+                    <ul>
+                        <li><a href="index.html">About</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <div class="body-chunk">
+            <!-- Main Content Section -->
+            <section class="main-content">
+                <form>
+                    Name
+                    <br>
+                    <input type="text" name="name">
+                    <br> Email
+                    <br>
+                    <input type="text" name="email">
+                    <br> Message
+                    <br>
+                    <input type="text" name="message">
+                    <br> Submit
+                    <br>
+                    <input type="submit" value="Submit">
+                </form>
+            </section>
+            <!-- Sidebar Section-->
+            <section class="sidebar">
+                <div class="sidebar-title">
+                    <h3>Connect with Me</h3></div>
+                <hr>
+                <div class="sidebar-links">
+                    <ul>
+                        <li>
+                            <a href="https://www.github.com/chanceeakin">
+                                <img class="sidebar-img" alt="GitHub" src="assets/images/1461489373_github_square.png">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://www.linkedin.com/chanceeakin">
+                                <img class="sidebar-img" alt="Linked In" src="assets/images/1461491719_linkedin_square_color%20%281%29.png">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://stackoverflow.com/users/6016389/chance-eakin">
+                                <img class="sidebar-img" alt="Stack Overflow" src="assets/images/stackoverflowcrop.png">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+        </div>
+        <!-- Footer -->
+        <div class="page-wrap">
+            <footer class="site-footer">
+                <p>© Copyright 2016 Chance Eakin</p>
+            </footer>
+        </div>
     </div>
-    <!-- Footer. How do I make the copyright symbol? -->
-    <footer>
-        <p>© Copyright 2016 Chance Eakin</p>
-    </footer>
 </body>
 
 </html>
