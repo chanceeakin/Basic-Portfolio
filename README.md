@@ -8,4 +8,4 @@ Things to do:
 
 css - sticky footer
 
-fix the stackoverflow image
+deploy to heroku!
