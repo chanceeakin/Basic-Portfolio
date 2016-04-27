@@ -320,3 +320,20 @@ input[type=submit]:hover {
     line-height: 65px;
     clear: both;
 }
+
+#contact-footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #666666;
+    color: white;
+    text-align: center;
+    font-size: 10px;
+    margin: 0px;
+    border-top: 5px;
+    border-style: solid;
+    border-color: #4aaaa5;
+    line-height: 65px;
+    clear: both;
+
+}
