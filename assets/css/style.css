@@ -319,4 +319,25 @@ input[type=submit]:hover {
     border-color: #4aaaa5;
     line-height: 65px;
     clear: both;
+<<<<<<< HEAD
 }
+=======
+}
+
+#contact-footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #666666;
+    color: white;
+    text-align: center;
+    font-size: 10px;
+    margin: 0px;
+    border-top: 5px;
+    border-style: solid;
+    border-color: #4aaaa5;
+    line-height: 65px;
+    clear: both;
+
+}
+>>>>>>> b841351ad77ea7f0c1ddd3eaaae1d5433e18c279
