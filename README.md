@@ -1,11 +1,15 @@
-# Basic-Portfolio
-
-This is my week one project. Also, this is where I will keep notes to myself about the code.
+#Assignment 1!!
 
 
+To do:
+Media Queries!!
 
-Things to do:
+Add and style each of the queries based on pixel width.
 
-css - sticky footer
+Have fun...
 
-deploy to heroku!
+
+
+
+
+

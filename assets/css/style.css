@@ -210,8 +210,6 @@ h3 {
 
 /* Contact Main content styling */
 
-
-
 input[type=text] {
     width: 100%;
     text-indent: 10px;
@@ -269,7 +267,8 @@ input[type=submit]:hover {
 .sidebar hr {
     width: 80%;
     margin-left: auto;
-    margin-right: auto;}
+    margin-right: auto;
+}
 
 .sidebar-title {
     margin-top: 25px;
@@ -335,5 +334,178 @@ input[type=submit]:hover {
     border-color: #4aaaa5;
     line-height: 65px;
     clear: both;
+}
 
+
+/* Media Queries!! */
+
+@media screen and (max-width: 980px) {
+    .header-container {
+        max-width: 730px;
+    }
+    .main-content {
+        max-width: 420px;
+        margin-left: 110px;
+    }
+    .sidebar {
+        margin-right: 110px;
+    }
+    .image-left {
+        display: inline;
+        float: left;
+        left: 15%;
+        margin: auto;
+        position: relative;
+        margin-bottom: 25px;
+    }
+    .image-right {
+        display: inline;
+        float: left;
+        left: 15%;
+        margin: auto;
+        position: relative;
+        margin-bottom: 25px;
+    }
+    .image-left:hover {
+        display: inline;
+        float: left;
+        left: 15%;
+        margin: auto;
+        position: relative;
+        margin-bottom: 25px;
+        opacity: 0.7;
+    }
+    .image-right:hover {
+        display: inline;
+        float: left;
+        left: 15%;
+        margin: auto;
+        position: relative;
+        margin-bottom: 25px;
+        opacity: 0.7;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .header-container {
+        max-width: 728px;
+        padding: 0px 20px 0px 20px;
+    }
+    .main-content {
+        max-width: 728px;
+        width: 678px;
+        margin: 20px;
+    }
+    .sidebar {
+        width: 678px;
+        margin: 20px 20px 20px 20px;
+        padding: 0px;
+        float: left;
+        text-align: center;
+    }
+    .image-left {
+        display: inline;
+        float: left;
+        margin: 10px;
+        position: relative;
+        left: -10px;
+        margin-bottom: 25px;
+    }
+    .image-right {
+        display: inline;
+        float: left;
+        margin: 10px;
+        position: relative;
+        margin-bottom: 25px;
+    }
+    .image-left:hover {
+        display: inline;
+        float: left;
+        margin: 10px;
+        position: relative;
+        left: -10px;
+        margin-bottom: 25px;
+        opacity: 0.7;
+    }
+    .image-right:hover {
+        display: inline;
+        float: left;
+        margin: 10px;
+        position: relative;
+        margin-bottom: 25px;
+        opacity: 0.7;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    header {
+        position: static;
+    }
+    .header-container {
+        width: 100%;
+        margin: 0 auto;
+        padding: 0px;
+        max-width: 640px;
+    }
+    .jumbotron {
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .navbar {
+        display: block;
+        clear: both;
+    }
+    .navbar ul {
+        width: 100%;
+        padding: 20px;
+        margin-bottom: 20px;
+    }
+    .navbar li {
+        display: inline-block;
+        float: left;
+        padding: 0px 75px 0px 75px;
+        margin-bottom: 10px;
+    }
+    .main-content {
+        max-width: 600px;
+        margin-left: 20px;
+        width: 100%;
+    }
+    #portfolio-img {
+        overflow: auto;
+    }
+    .image-left {
+       display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+        margin: 0px;
+        position: relative;
+        margin-bottom: 25px;
+    }
+    .image-right {
+        display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+        margin: 0px;
+        position: relative;
+        margin-bottom: 25px;
+    }
+    .image-left:hover {
+        margin: 0px;
+        position: relative;
+        margin-bottom: 25px;
+        opacity: 0.7;
+    }
+    .image-right:hover {
+        margin: 0px;
+        position: relative;
+        margin-bottom: 25px;
+        opacity: 0.7;
+    }
+    .sidebar {
+        max-width: 600px;
+        margin-left: 20px;
+        width: 100%;
+    }
 }
