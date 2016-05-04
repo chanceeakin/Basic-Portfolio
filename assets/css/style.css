@@ -318,10 +318,8 @@ input[type=submit]:hover {
     border-color: #4aaaa5;
     line-height: 65px;
     clear: both;
-<<<<<<< HEAD
 }
-=======
-}
+
 
 #contact-footer {
     position: fixed;
@@ -338,7 +336,6 @@ input[type=submit]:hover {
     line-height: 65px;
     clear: both;
 }
-
 
 /* Media Queries!! */
 
@@ -512,4 +509,3 @@ input[type=submit]:hover {
         width: 100%;
     }
 }
->>>>>>> b841351ad77ea7f0c1ddd3eaaae1d5433e18c279
