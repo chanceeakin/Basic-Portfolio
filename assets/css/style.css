@@ -318,6 +318,9 @@ input[type=submit]:hover {
     border-color: #4aaaa5;
     line-height: 65px;
     clear: both;
+<<<<<<< HEAD
+}
+=======
 }
 
 #contact-footer {
@@ -509,3 +512,4 @@ input[type=submit]:hover {
         width: 100%;
     }
 }
+>>>>>>> b841351ad77ea7f0c1ddd3eaaae1d5433e18c279
