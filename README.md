@@ -1,12 +1,7 @@
 #Assignment 1!!
 
 
-To do:
-Media Queries!!
-
-Add and style each of the queries based on pixel width.
-
-Have fun...
+This is an early repo. It's where I came from, but there's not much here. It's like the MySpace of my profile. Still alive, but a ghost town.
 
 
 
